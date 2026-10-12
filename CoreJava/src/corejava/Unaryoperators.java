@@ -173,7 +173,6 @@ import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
 		int Cc = Bb--;
 		Aa = Cc++;
 		Bb = Cc--;
-		System.out.println("Question 2");
 		System.out.println(Aa); 
 		System.out.println(Bb); 
 		System.out.println(Cc);
