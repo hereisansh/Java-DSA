@@ -178,6 +178,48 @@ import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
 		System.out.println(Cc);
 		
 		
+		//LOGICAL OPERATORS
+		
+		System.out.println("logical &&(AND) operator");
+		int age = 20;
+		System.out.println(age >= 18 && age <= 25);
+		
+		
+		System.out.println("logical || (OR) operator");
+		int agee = 17;
+		System.out.println(agee < 18 || agee > 60);
+		
+		
+		System.out.println("logical !(NOT) operator");
+		boolean isRaining = false;
+		System.out.println(!isRaining);
+		
+		
+		//RELATIONAL OPERATORS
+		int aA = 20;
+		int bB = 10;
+		System.out.println("Greater than (>) Relational operator");
+		System.out.println(aA > bB);
+		
+		
+		//Operator	Meaning	Example	Result
+		//==	Equal to	  				    10 == 10	true
+		//!=	Not equal to	            	10 != 5	    true
+		//>	Greater than               	        10 > 5	    true
+		//<	Less than	               	        5 < 10	    true
+		//>=	Greater than or equal to    	10 >= 10	true
+		//<=	Less than or equal to			5 <= 10   	true
+		
+		
+		//Ternery operator
+		//Ternary operator ek condition check karta hai. Condition true ho toh pehli value select hoti hai, aur false ho toh doosri value.
+		
+		
+		System.out.println("Ternery operator");
+		int umar = 20;
+		String result = (umar >= 18) ? "Eligible" : "Not Eligible";
+		System.out.println(result);
+		
 		
 		
 		
