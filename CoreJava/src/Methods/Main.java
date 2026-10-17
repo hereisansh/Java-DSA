@@ -48,6 +48,11 @@
 			return children*balls;
 		}
 		
+		//Question 8//
+		int calculateCupCakesPerBox(int cupcakes, int boxes)
+		{
+			return cupcakes/boxes;
+		}
 		
 	    public static void main(String[] args) {
 	    	System.out.println("Question 1");
