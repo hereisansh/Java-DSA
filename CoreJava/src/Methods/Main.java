@@ -30,11 +30,7 @@
 		{
 			return a/b;
 		}
-			//Question 7//
-	    int calculateTotalCricketBalls(int children,int balls)
-	   {
-		return children*balls;
-	}
+			
 
 		//Question 6//
 		static int modulus(int a, int b)
@@ -60,9 +56,15 @@
 			return postOffice*workers;
 		}
 		
+		//Question 10//
+		int calculateTotalPizzaSlices(int members, int slices)
+		{
+			return members*slices;
+		}
+		
 	    public static void main(String[] args) {
 	    	System.out.println("Question 1");
-			hello("Hello Ansh");
+			hello("Hello ANSH");
 			System.out.println(hello("Hello ANSH"));
 			
 			
