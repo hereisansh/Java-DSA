@@ -54,9 +54,15 @@
 			return cupcakes/boxes;
 		}
 		
+		//Question 9//
+		int calculateTotalWorkers(int postOffice, int workers)
+		{
+			return postOffice*workers;
+		}
+		
 	    public static void main(String[] args) {
 	    	System.out.println("Question 1");
-			hello("Hello Aanya");
+			hello("Hello Ansh");
 			System.out.println(hello("Hello ANSH"));
 			
 			
