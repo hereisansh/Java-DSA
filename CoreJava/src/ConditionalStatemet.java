@@ -568,15 +568,6 @@ public class Main
 		 System.out.println(checkVowelConsonant('a'));
 		 System.out.println(checkVowelConsonant('b'));
 		
-		 //Question 9//
-		 System.out.println();
-		 System.out.println("Question 9");
-		 checkCase('r');
-		 System.out.println(checkCase('r'));
-		 checkCase('Q');
-		 System.out.println(checkCase('Q'));
-		 checkCase('^');
-		 System.out.println( checkCase('^'));
 		 
 		 //Question 10//
 		 System.out.println();
