@@ -617,7 +617,14 @@ public class Main
 		 System.out.println();
 		 System.out.println("Question 16");
 		 System.out.println(isValidTriangleSides(3, 4, 5));
-		 
+
+
+		//Question 17//
+		 System.out.println();
+		 System.out.println("Question 17");
+	     System.out.println(checkTriangleType(5, 5, 5));
+	     System.out.println(checkTriangleType(6, 6, 8));
+	     System.out.println(checkTriangleType(7, 8, 9));
 
 		 //Question 18//
 	     int years = yearsServed(2024, 2018);
