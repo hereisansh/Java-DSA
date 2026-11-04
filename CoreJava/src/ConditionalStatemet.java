@@ -486,3 +486,150 @@ public class Main
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	public static void main(String[] args) 
+	{
+		//Question 1//
+		System.out.println();
+		System.out.println("Question 1");
+		findMax(10, 20);
+		findMax(7.5, 3.2);
+		findMax(12, 12);
+		findMax(-5, -3); 
+		findMax(0, 0);
+		findMax(15.5, 15.5);
+		findMax(2.5, 7.5);
+		findMax(100, -50);
+		findMax(1, -1); 
+		findMax(10.0, 10.1);
+
+		//Question 2//
+		System.out.println();
+		System.out.println("Question 2");
+		System.out.println(findmax(10, 20, 15));
+		System.out.println(findmax(3.3, 7.1, 6.9));
+		
+		//Question 3//
+		System.out.println();
+		System.out.println("Question 3");
+		findYoungest(25, 30, 22);
+		System.out.println(findYoungest(25, 30, 22));
+		
+		//Question 4//
+		System.out.println();
+		System.out.println("Question 4");
+		checkNumber(10);
+		checkNumber(-5);
+		
+		//Question 5//
+		System.out.println();
+		System.out.println("Question 5");
+		isDivisible(55);
+		System.out.println(isDivisible(55));
+		isDivisible(110);
+		System.out.println(isDivisible(110));
+		isDivisible(12);
+		System.out.println(isDivisible(12));
+		
+		//Question 6//
+		System.out.println();
+		System.out.println("Question 6");
+		checkEvenOdd(4);
+		System.out.println(checkEvenOdd(4));
+		checkEvenOdd(7);
+		System.out.println(checkEvenOdd(7));
+		
+		//Question 7//
+		System.out.println();
+		System.out.println("Question 7");
+		checkCharType('a');
+		System.out.println(checkCharType('a'));
+		checkCharType('1');
+		System.out.println(checkCharType('1'));
+		checkCharType('#');
+		System.out.println(checkCharType('#'));
+		
+		//Question 8//
+		System.out.println();
+		System.out.println("Question 8");
+		 System.out.println(checkVowelConsonant('a'));
+		 System.out.println(checkVowelConsonant('b'));
+		
+		 //Question 9//
+		 System.out.println();
+		 System.out.println("Question 9");
+		 checkCase('r');
+		 System.out.println(checkCase('r'));
+		 checkCase('Q');
+		 System.out.println(checkCase('Q'));
+		 checkCase('^');
+		 System.out.println( checkCase('^'));
+		 
+		 //Question 10//
+		 System.out.println();
+		 System.out.println("Question 10");
+		 calculateProfitOrLoss(500, 600);
+		 calculateProfitOrLoss(700, 500);
+		 calculateProfitOrLoss(800, 800);
+		 
+		 //Question 11//
+		 System.out.println();
+		 System.out.println("Question 11");
+		 printWeekday(2);
+		 System.out.println(printWeekday(2));
+		 
+		 //Question 12//
+		 System.out.println();
+		 System.out.println("Question 12");
+		 printMonthName(10);
+		 System.out.println(printMonthName(10));
+		 
+		 //Question 13//
+		 System.out.println();
+		 System.out.println("Question 13");
+		 System.out.println("Total Amount:"+calculateTotalAmount(5, 8, 2));
+		 
+		 //Question 14//
+		 System.out.println();
+		 System.out.println("Question 14");
+		 System.out.println(calculateTotalExpenses(150, 20));
+		 
+		 //Question 15//
+		 System.out.println();
+		 System.out.println("Question 15");
+		 System.out.println(isValidTriangle(60, 60, 60) + " it is a valid triangle");
+		 System.out.println(isValidTriangle(90, 75, 45));
+		 
+		 //Question 16//
+		 System.out.println();
+		 System.out.println("Question 16");
+		 System.out.println(isValidTriangleSides(3, 4, 5));
+		 
+
+		 //Question 18//
+	     int years = yearsServed(2024, 2018);
+	     System.out.println("Years served = " + years);
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	}
+
+}
