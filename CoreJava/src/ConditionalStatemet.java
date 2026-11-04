@@ -628,7 +628,11 @@ public class Main
 	     System.out.println(checkTriangleType(6, 6, 8));
 	     System.out.println(checkTriangleType(7, 8, 9));
 
+
 		
+		 //Question 18//
+	     int years = yearsServed(2024, 2018);
+	     System.out.println("Years served = " + years);
 		 
 		 
 		 
