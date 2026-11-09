@@ -351,7 +351,20 @@ public class Main
 
 	public static void main(String[] args) 
 	{
-		
+
+		//Question 1//
+		System.out.println();
+		System.out.println("Question 1");
+		findMax(10, 20);
+		findMax(7.5, 3.2);
+		findMax(12, 12);
+		findMax(-5, -3); 
+		findMax(0, 0);
+		findMax(15.5, 15.5);
+		findMax(2.5, 7.5);
+		findMax(100, -50);
+		findMax(1, -1); 
+		findMax(10.0, 10.1);
 
 		//Question 2//
 		System.out.println();
