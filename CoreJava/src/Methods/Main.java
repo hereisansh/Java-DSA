@@ -26,7 +26,12 @@ public class Main
 	{
 		return a*b;
 	}
-	
+
+		//Question 5//
+	static int division(int a, int b)
+	{
+		return a/b;
+	}
 	
 	//Question 6//
 	static int modulus(int a, int b)
