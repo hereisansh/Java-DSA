@@ -189,12 +189,7 @@ public class Main
 		 return speed1-speed2;
 	 }
 	
-	 //Question 32//
-	 static double calculateTotalTravelTime(double distance1, double speed1, double distance2, double speed2)
-	 {
-		 return (distance1/speed1) + (distance2/speed2);
-	 }
-	 
+	
 	 //Question 33//
 	 double calculateFuelEfficiency(int distance, int fuelConsumed)
 	 {
