@@ -4,7 +4,10 @@ package MethodLogical;
 
 public class Methods 
 {
-	 
+	 //QUESTION 1//
+	static int speed(int distance, int time)
+	{
+		return distance/time; 
 	}
 	//Question 2//
 	static int distance(int speed, int time)
