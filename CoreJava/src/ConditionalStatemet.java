@@ -38,7 +38,23 @@ public class Main
 			return c;
 		}
 	}
-	
+
+	//Question 3//
+	static String findYoungest(int rohan, int harsh, int anjali)
+	{
+		if(rohan<harsh && rohan<anjali)
+		{
+			return "Rohan is youngest with an age of" + rohan;
+		}
+		else if(harsh<rohan && harsh<anjali)
+		{
+			return "Harsh is the youngest with an age of " +harsh;
+		}
+		else
+		{
+			return "Anjali is the youngest with an age of " + anjali;
+		}
+	}
 	
 	
 	//Question 4//
