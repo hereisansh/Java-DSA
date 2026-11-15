@@ -73,17 +73,7 @@ public class Main
 		}
 	}
 	
-	//Question 5//
-	static Boolean isDivisible(double a)
-	{
-		if(a%5==0 && a%11==0)
-		{
-			return true;
-		}
-		else {
-			return false;
-		}
-	}
+	
 	//Question 6//
 	static String checkEvenOdd(double num)
 	{
