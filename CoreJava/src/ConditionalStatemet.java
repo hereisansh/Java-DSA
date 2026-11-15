@@ -72,6 +72,18 @@ public class Main
 			System.out.println("Positive Number");
 		}
 	}
+
+	//Question 5//
+	static Boolean isDivisible(double a)
+	{
+		if(a%5==0 && a%11==0)
+		{
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
 	
 	
 	//Question 6//
